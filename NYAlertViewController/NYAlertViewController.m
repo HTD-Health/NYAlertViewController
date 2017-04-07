@@ -357,14 +357,14 @@ static CGFloat const kDefaultDismissalAnimationDuration = 0.6f;
     
     _buttonColor = [UIColor darkGrayColor];
     _buttonTitleColor = [UIColor whiteColor];
-    _cancelButtonColor = [UIColor darkGrayColor];
+    _cancelButtonColor = [UIColor colorWithHue:206.0f / 360.0f saturation:0.31f brightness:0.26f alpha:1.0f];
     _cancelButtonTitleColor = [UIColor whiteColor];
-    _destructiveButtonColor = [UIColor colorWithRed:1.0f green:0.23f blue:0.21f alpha:1.0f];
+    _destructiveButtonColor = [UIColor colorWithHue:336.0f / 360.0f saturation:1.0f brightness:0.78f alpha:1.0f];//[UIColor colorWithRed:1.0f green:0.23f blue:0.21f alpha:1.0f];
     _destructiveButtonTitleColor = [UIColor whiteColor];
     _disabledButtonColor = [UIColor lightGrayColor];
     _disabledButtonTitleColor = [UIColor whiteColor];
     
-    _buttonCornerRadius = 6.0f;
+    _buttonCornerRadius = 0.0f;
     
     _transitionStyle = NYAlertViewControllerTransitionStyleSlideFromTop;
     
